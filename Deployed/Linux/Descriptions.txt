@@ -1,4 +1,0 @@
-This is the deployed files for Linux (deployed in Debian 12).
-
-I have to take out the tensorflow and rewrite the algorithm in numpy so the deployed app file size doesnt too big (from 20Gb shrink to 30MB due
-to not using tensorflow in the deployment stage).
