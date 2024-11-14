@@ -1,0 +1,6 @@
+- The model_light is forward propagation without using tensorflow, because tensorflow when deployed is too large (20GB size file when deployed),
+so i need to rewrite the algorithm with only using numpy and the app file decreased to 30MB. 
+
+- The initialization.py and Regularization.py is the neural network architecture of the same model that not using tensorflow, from backprops
+to forward props, this is the first thing i do before using tensorflow (but in the end the algorithm is not yet good, so i decided to using 
+tensorflow).
